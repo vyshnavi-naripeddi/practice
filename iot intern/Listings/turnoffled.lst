@@ -1,0 +1,29 @@
+C51 COMPILER V9.60.0.0   TURNOFFLED                                                        05/27/2021 07:11:22 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE TURNOFFLED
+OBJECT MODULE PLACED IN .\Objects\turnoffled.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE led project\turnoffled.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRI
+                    -NT(.\Listings\turnoffled.lst) TABS(2) OBJECT(.\Objects\turnoffled.obj)
+
+line level    source
+
+   1          #include<regx51.h>
+   2          sbit iot=P2^0;
+   3          void main(){
+   4   1      iot=1;
+   5   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      3    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,3 @@
+".\Objects\STARTUP.obj" 
+TO ".\Objects\cathode" 
+PRINT(".\Listings\cathode.m51")

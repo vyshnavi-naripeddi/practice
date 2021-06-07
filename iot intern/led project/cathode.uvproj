@@ -1,0 +1,5 @@
+#include<regx51.h>
+sbit led=P3^0;
+void main(){
+cathode=0;
+}

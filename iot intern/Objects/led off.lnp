@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\turnoffled.obj" 
+TO ".\Objects\led off" 
+PRINT(".\Listings\led off.m51")
